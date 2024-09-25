@@ -3,7 +3,7 @@
   "changelog": [
     "@changesets/changelog-git",
     {
-      "repo": "@agile/monorepo-template"
+      "repo": "Agile-Missile/agilejs"
     }
   ],
   "privatePackages": {
@@ -14,7 +14,7 @@
   "fixed": [],
   "linked": [],
   "access": "public",
-  "baseBranch": "master",
+  "baseBranch": "main",
   "updateInternalDependencies": "patch",
   "ignore": []
 }

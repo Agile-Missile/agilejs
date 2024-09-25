@@ -2694,6 +2694,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"agilejs-monorepo@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "agilejs-monorepo@workspace:."
+  dependencies:
+    "@changesets/changelog-git": "npm:0.2.0"
+    "@changesets/cli": "npm:2.27.7"
+    "@commitlint/cli": "npm:19.3.0"
+    "@commitlint/config-conventional": "npm:19.2.2"
+    "@hyperse/eslint-config-hyperse": "npm:^1.0.8"
+    "@hyperse/ts-node-paths": "npm:^1.0.9"
+    commitizen: "npm:4.3.0"
+    cross-env: "npm:7.0.3"
+    cz-conventional-changelog: "npm:3.3.0"
+    eslint: "npm:^9.10.0"
+    husky: "npm:9.0.11"
+    is-ci: "npm:3.0.1"
+    lint-staged: "npm:15.2.7"
+    minimist: "npm:1.2.8"
+    npm-run-all: "npm:4.1.5"
+    rimraf: "npm:5.0.7"
+    terser: "npm:5.31.1"
+    typescript: "npm:5.4.5"
+  languageName: unknown
+  linkType: soft
+
 "ajv@npm:^6.12.4":
   version: 6.12.6
   resolution: "ajv@npm:6.12.6"
@@ -9413,31 +9438,6 @@ __metadata:
   checksum: 10/a52f17767f1aa8133ad4354065e579c3d1cc72e866102bde7e466123772f5e571327b95ce777d1d655724f0c479a82acaafc6e81e25781851779d865682c8823
   languageName: node
   linkType: hard
-
-"monorepo-starter@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "monorepo-starter@workspace:."
-  dependencies:
-    "@changesets/changelog-git": "npm:0.2.0"
-    "@changesets/cli": "npm:2.27.7"
-    "@commitlint/cli": "npm:19.3.0"
-    "@commitlint/config-conventional": "npm:19.2.2"
-    "@hyperse/eslint-config-hyperse": "npm:^1.0.8"
-    "@hyperse/ts-node-paths": "npm:^1.0.9"
-    commitizen: "npm:4.3.0"
-    cross-env: "npm:7.0.3"
-    cz-conventional-changelog: "npm:3.3.0"
-    eslint: "npm:^9.10.0"
-    husky: "npm:9.0.11"
-    is-ci: "npm:3.0.1"
-    lint-staged: "npm:15.2.7"
-    minimist: "npm:1.2.8"
-    npm-run-all: "npm:4.1.5"
-    rimraf: "npm:5.0.7"
-    terser: "npm:5.31.1"
-    typescript: "npm:5.4.5"
-  languageName: unknown
-  linkType: soft
 
 "mri@npm:^1.1.0, mri@npm:^1.2.0":
   version: 1.2.0
