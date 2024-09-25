@@ -1,5 +1,5 @@
 ---
-"@agilejs/terminal": minor
+"@agilejs/terminal": patch
 ---
 
 publish @agilejs/terminal
