@@ -1,9 +1,12 @@
 {
   "mode": "pre",
   "tag": "next",
-  "initialVersions": {},
+  "initialVersions": {
+    "@agile/docs": "1.0.0",
+    "@agilejs/logger": "1.0.0",
+    "@agilejs/terminal": "1.0.0"
+  },
   "changesets": [
-    "beige-dolls-unite",
-    "little-snails-wash"
+    "swift-foxes-invite"
   ]
 }
