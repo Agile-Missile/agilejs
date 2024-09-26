@@ -11,6 +11,9 @@
     {
       "name": "logger",
       "path": "packages/logger",
+    },  {
+      "name": "commander",
+      "path": "packages/commander",
     },
     {
       "name": "terminal",
@@ -43,13 +46,14 @@
       "./docs",
       "./packages/logger",
       "./packages/terminal",
+      "./packages/commander",
     ],
     "typescript.tsdk": "root/node_modules/typescript/lib",
     "[json]": {
       "editor.defaultFormatter": "vscode.json-language-features"
     },
     "[jsonc]": {
-      "editor.defaultFormatter": "vscode.json-language-features"
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[typescript]": {
       "editor.defaultFormatter": "dbaeumer.vscode-eslint"
