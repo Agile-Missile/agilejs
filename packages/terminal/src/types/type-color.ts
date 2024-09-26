@@ -34,6 +34,7 @@ export const DEFAULT_COLOR = {
   teal: '#008080',
   navy: '#000080',
   purple: '#800080',
+  transparent: '#00000000',
 };
 
 /**

@@ -49,8 +49,9 @@ export const isNumberColor = (color: TerminalColor): color is number => {
  */
 export const getForegroundAnsisColor = (
   ansis: typeof Ansis,
-  color: TerminalColor
+  color?: TerminalColor
 ) => {
+  if (!color) return ansis.hex(DEFAULT_COLOR.transparent);
   if (isDefaultColor(color)) return ansis.hex(DEFAULT_COLOR[color]);
   if (isHexColor(color)) return ansis.hex(color);
   if (isRgbColor(color)) return ansis.rgb(...color);
@@ -67,8 +68,9 @@ export const getForegroundAnsisColor = (
  */
 export const getBackgroundAnsisColor = (
   ansis: Ansis.Ansis,
-  color: TerminalColor
+  color?: TerminalColor
 ) => {
+  if (!color) return ansis.bgHex(DEFAULT_COLOR.transparent);
   if (isDefaultColor(color)) return ansis.bgHex(DEFAULT_COLOR[color]);
   if (isHexColor(color)) return ansis.bgHex(color);
   if (isRgbColor(color)) return ansis.bgRgb(...color);

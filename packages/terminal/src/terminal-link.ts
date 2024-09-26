@@ -47,12 +47,6 @@ terminalLink.stderr = (
 ) => terminalLink(text, url, { target: 'stderr', ...options });
 
 /**
- * Check if terminal link for stderr is supported.
- * @type {boolean}
- */
-terminalLink.stderr['isSupported'] = supportsHyperlinks.stderr;
-
-/**
  * Generates a terminal link with the specified text and URL.
  *
  * @param {string} text - The text to display for the link.

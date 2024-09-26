@@ -9,52 +9,26 @@ import {
   TerminalStyles,
 } from './types/type-color.js';
 
-export function terminalColor(color: TerminalColor): (x: string) => string;
-
-export function terminalColor(
-  color: TerminalColor,
-  bgColor: TerminalColor
-): (x: string) => string;
-
-export function terminalColor(
-  color: TerminalColor,
-  bgColor: TerminalColor,
-  misc: TerminalMisc
-): (x: string) => string;
-
-export function terminalColor(
-  color: TerminalColor,
-  bgColor: TerminalColor,
-  misc: TerminalMisc,
-  styles: TerminalStyles
-): (x: string) => string;
-
 /**
- * Generates a function to apply terminal color and styles to a string.
+ * Generates a function to apply terminal color and styles to a given string.
  *
- * This function can take up to four arguments: `color`, `bgColor`, `misc`, and `styles`.
- *
- * - `color`: The foreground color of the text.
- * - `bgColor`: The background color of the text.
- * - `misc`: Miscellaneous styles such as underline, blink, etc.
- * - `styles`: Additional styles such as bold, italic, etc.
- *
- * The function returns another function that takes a string as an argument and applies the specified color and styles to it.
- *
- * @param {...(TerminalColor | TerminalColor | TerminalColor | TerminalColor | TerminalMisc | TerminalStyles)} args - The arguments to apply to the string.
- * @returns {(x: string) => string} - A function that applies the specified color and styles to a string.
+ * @param color - The color(s) to apply. Can be a single color for foreground or an array of two colors for foreground and background.
+ * @param styles - Optional. The style to apply to the text.
+ * @param misc - Optional. Miscellaneous properties to apply to the text.
+ * @returns A function that takes a string and returns the string with the applied color and styles.
  */
 export function terminalColor(
-  ...args:
-    | [TerminalColor]
-    | [TerminalColor, TerminalColor]
-    | [TerminalColor, TerminalColor, TerminalMisc]
-    | [TerminalColor, TerminalColor, TerminalMisc, TerminalStyles]
+  color: [TerminalColor] | [TerminalColor, TerminalColor],
+  styles?: TerminalStyles,
+  misc?: TerminalMisc
 ): (x: string) => string {
-  const [color, bgColor, misc, styles] = args;
-  let ansisFun = getForegroundAnsisColor(ansis, color);
-
-  if (bgColor) ansisFun = getBackgroundAnsisColor(ansisFun, bgColor);
+  let ansisFun: ansis.Ansis;
+  if (color.length === 1) {
+    ansisFun = getForegroundAnsisColor(ansis, color[0]);
+  } else {
+    ansisFun = getForegroundAnsisColor(ansis, color[0]);
+    ansisFun = getBackgroundAnsisColor(ansisFun, color[1]);
+  }
   if (misc) ansisFun = ansisFun[misc];
   if (styles) ansisFun = ansisFun[styles];
 
