@@ -7,12 +7,12 @@ import { CommandArgv } from './types/type-command.js';
 
 interface OnCommandHandler {
   /**
-   * The `CommanderHandler` class should inherit and implment this function
+   * The `CommanderHandler` class should inherit and implement this function
    * @override
    */
   handle(): void | Promise<void>;
   /**
-   * The `CommanderHandler` class should inherit and implment this function
+   * The `CommanderHandler` class should inherit and implement this function
    * @override
    */
   initialize(): void;
@@ -41,7 +41,7 @@ export abstract class AbstractHandler<T extends CommandArgv>
     }),
   });
 
-  // Actived command name.
+  // Active command name.
   private pluginName: string;
   private packageJson: PackageJson;
 
@@ -80,7 +80,7 @@ export abstract class AbstractHandler<T extends CommandArgv>
   }
 
   /**
-   * The `CommanderHandler` class should inherit and implment this function,
+   * The `CommanderHandler` class should inherit and implement this function,
    * @example
    * ```ts
    * console.log(this.args.logLevel)
@@ -91,7 +91,7 @@ export abstract class AbstractHandler<T extends CommandArgv>
     //
   }
   /**
-   * The `CommanderHandler` class should inherit and implment this function
+   * The `CommanderHandler` class should inherit and implement this function
    * @override
    */
   handle(): void | Promise<void> {

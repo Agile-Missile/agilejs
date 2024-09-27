@@ -26,7 +26,10 @@ export class CliMain {
     return this.program.parse(argv, this.options, callback);
   }
 
-  public parseAsync<T>(argv: string[], callback?: ParseCallback): Promise<T> {
+  public async parseAsync<T>(
+    argv: string[],
+    callback?: ParseCallback
+  ): Promise<T> {
     this.program = this.commands.reduce(
       (program, cmd) => program.command(cmd),
       this.program

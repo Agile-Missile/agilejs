@@ -18,7 +18,7 @@ const errorHandler =
     if (typeof actual === 'string') {
       actual = new Error(actual);
     }
-    // Makesure that we have always have `message` property error we throw.
+    // Make sure that we have always have `message` property error we throw.
     if (actual.message?.includes('Did you mean') && yargsIns.parsed) {
       logger.error(
         `Unknown command "${yargsIns.parsed.argv.$0}"`,

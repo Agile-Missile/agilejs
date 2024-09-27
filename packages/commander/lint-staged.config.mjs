@@ -16,7 +16,7 @@ const rules = {
       cwd: dirname(fileURLToPath(import.meta.url)),
       fix: true,
       cache: true,
-      // when autofixing staged-files a good tip is to disable react-hooks/exhaustive-deps, cause
+      // when auto fixing staged-files a good tip is to disable react-hooks/exhaustive-deps, cause
       // a change here can potentially break things without proper visibility.
       rules: [],
       maxWarnings: 25,
