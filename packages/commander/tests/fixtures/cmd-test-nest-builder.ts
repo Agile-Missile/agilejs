@@ -1,9 +1,9 @@
 import {
   AbstractHandler,
+  CommandArgv,
   createCommand,
   createSubCommands,
-} from '../../src/create-command.js';
-import { CommandArgv } from '../../src/types/type-command.js';
+} from '../../src/index.js';
 import { cmdTest } from './cmd-test-builder.js';
 
 type TestSuperCmdArgs = CommandArgv<{

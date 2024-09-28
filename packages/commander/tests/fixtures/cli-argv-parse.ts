@@ -1,4 +1,4 @@
-import { parseArgv } from '../../src/helpers/parse-argv.js';
+import { parseArgv } from '../../src/index.js';
 
 const parsed = await parseArgv();
 

@@ -1,4 +1,4 @@
-import { createCli } from '../../src/create-cli.js';
+import { createCli } from '../../src/index.js';
 import { cmdTest } from './cmd-test-builder.js';
 import { cmdNestTest } from './cmd-test-nest-builder.js';
 
