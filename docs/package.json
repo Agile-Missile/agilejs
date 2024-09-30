@@ -35,7 +35,7 @@
   "devDependencies": {
     "@armit/eslint-config-bases": "^0.1.6",
     "@types/animejs": "^3",
-    "@types/node": "22.7.4",
+    "@types/node": "20.14.6",
     "@types/react": "^18.3.10",
     "eslint": "^9.11.1",
     "eslint-plugin-tailwindcss": "^3.17.4",

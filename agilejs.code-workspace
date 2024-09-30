@@ -11,19 +11,18 @@
     {
       "name": "logger",
       "path": "packages/logger",
-    },  {
-      "name": "commander",
-      "path": "packages/commander",
     },
     {
       "name": "terminal",
       "path": "packages/terminal",
     },
+    {
+      "name": "commander",
+      "path": "packages/commander",
+    },
   ],
   "extensions": {
-    "recommendations": [
-      "dbaeumer.vscode-eslint"
-    ],
+    "recommendations": ["dbaeumer.vscode-eslint"],
   },
   "settings": {
     "editor.formatOnSave": true,
@@ -44,19 +43,19 @@
     // https://github.com/Microsoft/vscode-eslint#mono-repository-setup
     "eslint.workingDirectories": [
       "./docs",
-      "./packages/logger",
       "./packages/terminal",
       "./packages/commander",
+      "./packages/logger",
     ],
     "typescript.tsdk": "root/node_modules/typescript/lib",
     "[json]": {
-      "editor.defaultFormatter": "vscode.json-language-features"
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     },
     "[jsonc]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
     "[typescript]": {
-      "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     },
   },
 }

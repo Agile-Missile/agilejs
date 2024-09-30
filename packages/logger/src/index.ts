@@ -1,3 +1,3 @@
-export const fun = () => {
+export const funLogger = () => {
   return 'library01';
 };

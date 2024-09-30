@@ -17,11 +17,11 @@ import {
  * @param misc - Optional. Miscellaneous properties to apply to the text.
  * @returns A function that takes a string and returns the string with the applied color and styles.
  */
-export function terminalColor(
+export const terminalColor = (
   color: [TerminalColor] | [TerminalColor, TerminalColor],
   styles?: TerminalStyles,
   misc?: TerminalMisc
-): (x: string) => string {
+): ((x: string) => string) => {
   let ansisFun: ansis.Ansis;
   if (color.length === 1) {
     ansisFun = getForegroundAnsisColor(ansis, color[0]);
@@ -35,4 +35,4 @@ export function terminalColor(
   return (x: string) => {
     return ansisFun(x);
   };
-}
+};
