@@ -1,5 +1,13 @@
 # @agile/commander
 
+## 1.0.6
+
+### Patch Changes
+
+- 450f6ce: fix typing
+- Updated dependencies [450f6ce]
+  - @agilejs/terminal@1.0.6
+
 ## 1.0.3
 
 ### Patch Changes
