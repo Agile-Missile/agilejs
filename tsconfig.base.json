@@ -3,10 +3,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "rootDir": ".",
-    "outDir": "dist"
+    "outDir": "dist",
+    "strictPropertyInitialization": false,
+    "noImplicitReturns": false
   },
-  "exclude": [
-    "**/node_modules",
-    "**/.*/"
-  ]
+  "exclude": ["**/node_modules", "**/.*/"]
 }
