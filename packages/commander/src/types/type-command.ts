@@ -7,7 +7,7 @@ type ArgvConfig = Record<string, ArgvPrimitive | Array<ArgvPrimitive>>;
 
 export type CommandArgv<T extends ArgvConfig = ArgvConfig> = {
   /**
-   * The name of runing command
+   * The name of running command
    */
   name: string;
   /**
@@ -15,7 +15,7 @@ export type CommandArgv<T extends ArgvConfig = ArgvConfig> = {
    */
   packageJson: PackageJson;
   /**
-   * The actived logging level
+   * The active logging level
    * @default 'Info'
    */
   logLevel: keyof typeof LogLevel;
