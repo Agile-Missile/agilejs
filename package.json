@@ -19,10 +19,10 @@
     "packages/*"
   ],
   "scripts": {
-    "g:clean": "yarn clean:global-cache && yarn workspaces foreach --all run clean",
+    "g:clean": "yarn clean:global-cache && yarn workspaces foreach -At run clean",
     "g:build": "yarn g:build-release",
     "?build-release": "When https://github.com/atlassian/changesets/issues/432 has a solution we can remove this trick",
-    "g:build-release": "yarn workspaces foreach --all run build-release",
+    "g:build-release": "yarn workspaces foreach -At run build-release",
     "g:test": "yarn workspaces foreach -At run test",
     "g:test-unit": "yarn workspaces foreach -At run test-unit",
     "g:test-e2e": "yarn workspaces foreach -At run test-e2e",
@@ -30,7 +30,7 @@
     "g:lint": "yarn workspaces foreach --all run lint --color",
     "g:typecheck": "yarn workspaces foreach --all run typecheck",
     "g:lint-staged-files": "lint-staged --allow-empty",
-    "g:fix-all-files": "yarn workspaces foreach --all run fix-all-files",
+    "g:fix-all-files": "yarn workspaces foreach -At run fix-all-files",
     "g:changeset": "changeset",
     "g:version": "changeset version",
     "g:release": "yarn g:build-release && changeset publish",
