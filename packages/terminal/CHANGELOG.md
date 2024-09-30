@@ -1,5 +1,11 @@
 # @agilejs/terminal
 
+## 1.0.5
+
+### Patch Changes
+
+- 94f2944: 1、fix typing
+
 ## 1.0.4
 
 ### Patch Changes
