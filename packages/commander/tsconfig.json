@@ -10,7 +10,7 @@
     "paths": {
       "@agilejs/terminal": ["../terminal/src/index.js"]
     },
-    "types": ["vitest/globals"]
+    "types": ["vitest/globals", "node"]
   },
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["**/node_modules", "**/.*/", "dist", "build"]
