@@ -20,9 +20,15 @@
       "name": "commander",
       "path": "packages/commander",
     },
+    {
+      "name": "typing-beautify",
+      "path": "packages/typing-beautify",
+    },
   ],
   "extensions": {
-    "recommendations": ["dbaeumer.vscode-eslint"],
+    "recommendations": [
+      "dbaeumer.vscode-eslint"
+    ],
   },
   "settings": {
     "editor.formatOnSave": true,
@@ -46,6 +52,7 @@
       "./packages/terminal",
       "./packages/commander",
       "./packages/logger",
+      "./packages/typing-beautify",
     ],
     "typescript.tsdk": "root/node_modules/typescript/lib",
     "[json]": {
