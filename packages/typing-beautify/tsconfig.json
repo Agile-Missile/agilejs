@@ -6,7 +6,10 @@
     "noImplicitAny": false,
     "noEmit": false,
     "incremental": true,
-    "paths": {},
+    "strictNullChecks": true,
+    "paths": {
+      "@agilejs/typing-beautify": ["./src/index.ts"]
+    },
     "types": ["vitest/globals", "node"]
   },
   "exclude": ["**/node_modules", "**/.*/", "dist", "build", "**/fixtures/**"]
