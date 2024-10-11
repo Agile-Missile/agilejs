@@ -107,6 +107,7 @@ __metadata:
     "@types/node": "npm:22.5.4"
     "@vitest/coverage-istanbul": "npm:2.1.1"
     "@vitest/ui": "npm:2.1.1"
+    conditional-type-checks: "npm:1.0.6"
     eslint: "npm:^9.11.1"
     minimist: "npm:^1.2.8"
     npm-run-all: "npm:4.1.5"
@@ -4188,6 +4189,13 @@ __metadata:
     readable-stream: "npm:^3.0.2"
     typedarray: "npm:^0.0.6"
   checksum: 10/250e576d0617e7c58e1c4b2dd6fe69560f316d2c962a409f9f3aac794018499ddb31948b1e4296f217008e124cd5d526432097745157fe504b5d9f3dc469eadb
+  languageName: node
+  linkType: hard
+
+"conditional-type-checks@npm:1.0.6":
+  version: 1.0.6
+  resolution: "conditional-type-checks@npm:1.0.6"
+  checksum: 10/f2ad20b9fca01230b708fcd6a8827e3539d19465aa51b4adbe91f6a5b3ecdbce154c9209b46a11d5decfbe30407a539c2b8fa32a58c6f182c5f83e3785ab3f7f
   languageName: node
   linkType: hard
 
