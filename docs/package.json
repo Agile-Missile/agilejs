@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "next build",
+    "build-docs": "next build",
     "build:mdx": "yarn node --no-warnings=ExperimentalWarning --loader ts-node/esm scripts/build-mdx",
     "dev": "next dev -p 3000 -H 0.0.0.0",
     "sitemap": "next-sitemap",

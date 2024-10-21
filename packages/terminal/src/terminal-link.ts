@@ -13,7 +13,7 @@ export const terminalLink = (
   text: string,
   url: string,
   { target = 'stdout', ...options }: TypeLinkOptions = {}
-) => {
+): string => {
   if (!supportsHyperlinks[target]) {
     if (options.fallback === false) {
       return text;
@@ -44,7 +44,7 @@ terminalLink.stderr = (
   text: string,
   url: string,
   options: TypeLinkOptions = {}
-) => terminalLink(text, url, { target: 'stderr', ...options });
+): string => terminalLink(text, url, { target: 'stderr', ...options });
 
 /**
  * Generates a terminal link with the specified text and URL.
