@@ -1,10 +1,10 @@
 import { AssertTrue, IsExact } from 'conditional-type-checks';
-import { tupleReverse } from '@agilejs/typing-beautify';
+import { TupleReverse } from '@agilejs/typing-beautify';
 
 type cases = [
-  AssertTrue<IsExact<tupleReverse<[]>, []>>,
-  AssertTrue<IsExact<tupleReverse<['a', 'b']>, ['b', 'a']>>,
-  AssertTrue<IsExact<tupleReverse<['a', 'b', 'c']>, ['c', 'b', 'a']>>,
+  AssertTrue<IsExact<TupleReverse<[]>, []>>,
+  AssertTrue<IsExact<TupleReverse<['a', 'b']>, ['b', 'a']>>,
+  AssertTrue<IsExact<TupleReverse<['a', 'b', 'c']>, ['c', 'b', 'a']>>,
 ];
 
 type errors = [

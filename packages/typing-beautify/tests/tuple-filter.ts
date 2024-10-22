@@ -1,14 +1,14 @@
 import { AssertTrue, IsExact } from 'conditional-type-checks';
-import { tupleFilter } from '@agilejs/typing-beautify';
+import { TupleFilter } from '@agilejs/typing-beautify';
 
 type cases = [
-  AssertTrue<IsExact<tupleFilter<[], never>, []>>,
-  AssertTrue<IsExact<tupleFilter<[never], never>, []>>,
-  AssertTrue<IsExact<tupleFilter<['a', never], never>, ['a']>>,
-  AssertTrue<IsExact<tupleFilter<[1, never, 'a'], never>, [1, 'a']>>,
+  AssertTrue<IsExact<TupleFilter<[], never>, []>>,
+  AssertTrue<IsExact<TupleFilter<[never], never>, []>>,
+  AssertTrue<IsExact<TupleFilter<['a', never], never>, ['a']>>,
+  AssertTrue<IsExact<TupleFilter<[1, never, 'a'], never>, [1, 'a']>>,
   AssertTrue<
     IsExact<
-      tupleFilter<
+      TupleFilter<
         [never, 1, 'a', undefined, false, null],
         never | null | undefined
       >,
@@ -17,7 +17,7 @@ type cases = [
   >,
   AssertTrue<
     IsExact<
-      tupleFilter<[number | null | undefined, never], never | null | undefined>,
+      TupleFilter<[number | null | undefined, never], never | null | undefined>,
       [number | null | undefined]
     >
   >,

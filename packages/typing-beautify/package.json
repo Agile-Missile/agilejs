@@ -32,9 +32,6 @@
     "fix-all-files": "eslint . --fix",
     "typecheck": "tsc --project ./tsconfig.json --noEmit && yarn test"
   },
-  "dependencies": {
-    "ts-essentials": "10.0.2"
-  },
   "devDependencies": {
     "@hyperse/eslint-config-hyperse": "^1.1.3",
     "@types/node": "22.7.5",

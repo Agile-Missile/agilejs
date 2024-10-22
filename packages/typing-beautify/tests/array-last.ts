@@ -1,9 +1,9 @@
 import { AssertTrue, IsExact } from 'conditional-type-checks';
-import { type ArrayLast } from '@agilejs/typing-beautify';
+import { type LastArray } from '@agilejs/typing-beautify';
 
 type cases = [
-  AssertTrue<IsExact<ArrayLast<[3, 2, 1]>, 1>>,
-  AssertTrue<IsExact<ArrayLast<[() => 123, { a: string }]>, { a: string }>>,
-  AssertTrue<IsExact<ArrayLast<[]>, never>>,
-  AssertTrue<IsExact<ArrayLast<[undefined]>, undefined>>,
+  AssertTrue<IsExact<LastArray<[3, 2, 1]>, 1>>,
+  AssertTrue<IsExact<LastArray<[() => 123, { a: string }]>, { a: string }>>,
+  AssertTrue<IsExact<LastArray<[]>, never>>,
+  AssertTrue<IsExact<LastArray<[undefined]>, undefined>>,
 ];
