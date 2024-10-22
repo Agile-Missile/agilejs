@@ -1,4 +1,4 @@
-import { AnyArray } from 'ts-essentials';
+import { AnyArray } from '../any-array/index.js';
 
 /**
  * Extracts the first element of an array.
