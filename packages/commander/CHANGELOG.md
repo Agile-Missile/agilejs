@@ -1,5 +1,13 @@
 # @agile/commander
 
+## 1.0.7
+
+### Patch Changes
+
+- 3712073: fix typing
+- Updated dependencies [3712073]
+  - @agilejs/terminal@1.0.7
+
 ## 1.0.6
 
 ### Patch Changes

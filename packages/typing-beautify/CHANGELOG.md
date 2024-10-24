@@ -1,5 +1,11 @@
 # @agilejs/typing-beautify
 
+## 1.0.3
+
+### Patch Changes
+
+- 3712073: fix typing
+
 ## 1.0.2
 
 ### Patch Changes
