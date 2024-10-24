@@ -1,5 +1,5 @@
-import { AssertTrue, IsExact } from 'conditional-type-checks';
-import { TupleReverse } from '@agilejs/typing-beautify';
+import type { AssertTrue, IsExact } from 'conditional-type-checks';
+import type { TupleReverse } from '@agilejs/typing-beautify';
 
 type cases = [
   AssertTrue<IsExact<TupleReverse<[]>, []>>,

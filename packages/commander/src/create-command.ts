@@ -1,9 +1,9 @@
-import { PackageJson } from 'type-fest';
-import { Arguments, Argv, CommandModule } from 'yargs';
+import type { PackageJson } from 'type-fest';
+import type { Arguments, Argv, CommandModule } from 'yargs';
 import { terminalColor } from '@agilejs/terminal';
 import { Logger, LogLevel } from '@armit/logger';
 import { StdoutAdapter, TerminalFormatStrategy } from '@armit/logger-node';
-import { CommandArgv } from './types/type-command.js';
+import type { CommandArgv } from './types/type-command.js';
 
 interface OnCommandHandler {
   /**

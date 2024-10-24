@@ -1,4 +1,4 @@
-import { AssertTrue, IsExact } from 'conditional-type-checks';
+import type { AssertTrue, IsExact } from 'conditional-type-checks';
 import { type AnyFunction } from '@agilejs/typing-beautify';
 
 type cases = [

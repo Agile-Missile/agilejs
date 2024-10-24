@@ -1,4 +1,4 @@
-import { AssertTrue, IsExact } from 'conditional-type-checks';
+import type { AssertTrue, IsExact } from 'conditional-type-checks';
 import { type AppendToObject } from '@agilejs/typing-beautify';
 
 type test1 = {

@@ -3,7 +3,7 @@ import {
   getBackgroundAnsisColor,
   getForegroundAnsisColor,
 } from './helpers/get-anssis-color.js';
-import {
+import type {
   TerminalColor,
   TerminalMisc,
   TerminalStyles,

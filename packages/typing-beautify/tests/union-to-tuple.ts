@@ -1,4 +1,4 @@
-import { AssertTrue, IsExact } from 'conditional-type-checks';
+import type { AssertTrue, IsExact } from 'conditional-type-checks';
 import { type UnionToTuple } from '@agilejs/typing-beautify';
 
 type ExtractValuesOfTuple<T extends any[]> = T[keyof T & number];

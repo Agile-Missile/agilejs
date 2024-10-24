@@ -1,4 +1,4 @@
-import { AssertTrue, IsExact } from 'conditional-type-checks';
+import type { AssertTrue, IsExact } from 'conditional-type-checks';
 import { type CurringFun } from '@agilejs/typing-beautify';
 
 type curried1 = CurringFun<(a: string, b: number, c: boolean) => true>;

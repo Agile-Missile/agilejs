@@ -1,7 +1,8 @@
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import semver from 'semver';
-import { ExecOptions, runTsScript } from '@hyperse/exec-program';
+import type { ExecOptions } from '@hyperse/exec-program';
+import { runTsScript } from '@hyperse/exec-program';
 
 async function runCliMock<T extends ExecOptions>(...args: string[]) {
   const program = join(

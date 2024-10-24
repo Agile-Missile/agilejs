@@ -1,6 +1,6 @@
 import ansiEscapes from 'ansi-escapes';
 import supportsHyperlinks from 'supports-hyperlinks';
-import { TypeLinkOptions } from './types/type-link.js';
+import type { TypeLinkOptions } from './types/type-link.js';
 
 /**
  * Generate a terminal link.

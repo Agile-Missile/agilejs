@@ -1,5 +1,5 @@
 import type { PackageJson } from 'type-fest';
-import { LogLevel } from '@armit/logger';
+import type { LogLevel } from '@armit/logger';
 
 type ArgvPrimitive = string | number | boolean | Record<string, unknown>;
 

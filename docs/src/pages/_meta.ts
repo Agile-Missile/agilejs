@@ -1,5 +1,5 @@
-import { metaSchema } from 'nextra/schemas';
-import { z } from 'zod';
+import type { metaSchema } from 'nextra/schemas';
+import type { z } from 'zod';
 
 export default {
   index: {

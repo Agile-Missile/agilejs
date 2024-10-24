@@ -1,6 +1,6 @@
 import type { Argv, CommandModule, ParseCallback } from 'yargs';
 import { createYargs } from './create-yargs.js';
-import { CliOptions } from './types/type-cli-options.js';
+import type { CliOptions } from './types/type-cli-options.js';
 
 export class CliMain {
   private options: CliOptions;

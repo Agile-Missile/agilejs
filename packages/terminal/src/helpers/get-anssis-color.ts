@@ -1,5 +1,6 @@
-import Ansis from 'ansis';
-import { DEFAULT_COLOR, TerminalColor } from '../types/type-color.js';
+import type Ansis from 'ansis';
+import type { TerminalColor } from '../types/type-color.js';
+import { DEFAULT_COLOR } from '../types/type-color.js';
 
 /**
  * Checks if the given color is a default color.
