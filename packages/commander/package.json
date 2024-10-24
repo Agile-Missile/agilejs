@@ -37,7 +37,7 @@
     "yargs": "17.7.2"
   },
   "devDependencies": {
-    "@hyperse/eslint-config-hyperse": "^1.1.3",
+    "@hyperse/eslint-config-hyperse": "^1.2.5",
     "@hyperse/exec-program": "1.0.10",
     "@types/node": "22.7.5",
     "@types/yargs": "17.0.33",

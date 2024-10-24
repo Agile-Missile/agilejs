@@ -1,5 +1,5 @@
 import cfonts from 'cfonts';
-import { TerminalBannerOptions } from './types/type-banner.js';
+import type { TerminalBannerOptions } from './types/type-banner.js';
 
 /**
  * Generates a terminal banner with the specified text and options.

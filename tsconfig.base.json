@@ -4,7 +4,6 @@
     "baseUrl": ".",
     "rootDir": ".",
     "outDir": "dist",
-    "strictPropertyInitialization": false,
     "noImplicitReturns": false
   },
   "exclude": ["**/node_modules", "**/.*/"]
