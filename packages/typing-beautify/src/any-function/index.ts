@@ -4,6 +4,6 @@
  * @template Args - The types of the arguments the function accepts.
  * @template ReturnType - The type of the value returned by the function. Defaults to `any`.
  */
-export type AnyFunction<Args extends any[], ReturnType> = (
+export type AnyFunction<Args extends any[] = any[], ReturnType = any> = (
   ...args: Args
 ) => ReturnType;
