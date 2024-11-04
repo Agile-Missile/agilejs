@@ -16,10 +16,6 @@ type cases = [
     >
   >,
   AssertTrue<
-    IsExact<
-      // eslint-disable-next-line @typescript-eslint/no-unsafe-function-type
-      PickKeys<{ a: 1; b: 1; c: '123'; d: () => void }, Function>,
-      'd'
-    >
+    IsExact<PickKeys<{ a: 1; b: 1; c: '123'; d: () => void }, Function>, 'd'>
   >,
 ];
