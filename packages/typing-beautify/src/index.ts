@@ -1,6 +1,7 @@
 export * from './any-array/index.js';
 export * from './any-function/index.js';
 export * from './append-to-object/index.js';
+export * from './build-in/index.js';
 export * from './currying-fun/index.js';
 export * from './first-array/index.js';
 export * from './is-any/index.js';
@@ -8,6 +9,7 @@ export * from './is-never/index.js';
 export * from './is-tuple/index.js';
 export * from './is-unknown/index.js';
 export * from './last-array/index.js';
+export * from './override-options/index.js';
 export * from './pick-keys/index.js';
 export * from './pick-properties/index.js';
 export * from './primitive/index.js';
