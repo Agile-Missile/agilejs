@@ -25,9 +25,7 @@ type cases = [
   >,
   AssertTrue<
     IsExact<
-      // eslint-disable-next-line @typescript-eslint/no-unsafe-function-type
       PickProperties<{ a: 1; b: 1; c: '123'; d: () => void }, Function>,
-      // eslint-disable-next-line @typescript-eslint/no-unsafe-function-type
       { d: Function }
     >
   >,

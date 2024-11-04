@@ -9,7 +9,7 @@ type cases = [
   AssertTrue<IsExact<ValueOf<symbol>, symbol>>,
   AssertTrue<IsExact<ValueOf<undefined>, undefined>>,
   AssertTrue<IsExact<ValueOf<null>, null>>,
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-function-type
+
   AssertTrue<IsExact<ValueOf<Function>, any>>,
   AssertTrue<IsExact<ValueOf<() => number>, number>>,
   AssertTrue<IsExact<ValueOf<{ a: 1 }>, 1>>,

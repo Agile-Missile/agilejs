@@ -11,6 +11,6 @@ type cases = [
   AssertTrue<IsExact<IsUnknown<[]>, false>>,
   AssertTrue<IsExact<IsUnknown<{}>, false>>,
   AssertTrue<IsExact<IsUnknown<() => void>, false>>,
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-function-type
+
   AssertTrue<IsExact<IsUnknown<Function>, false>>,
 ];
