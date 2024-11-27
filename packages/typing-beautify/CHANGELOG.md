@@ -1,5 +1,11 @@
 # @agilejs/typing-beautify
 
+## 1.0.5
+
+### Patch Changes
+
+- bfeda88: update
+
 ## 1.0.4
 
 ### Patch Changes
