@@ -18,7 +18,7 @@ __metadata:
     "@types/react": "npm:^19.0.1"
     animejs: "npm:3.2.2"
     autoprefixer: "npm:^10.4.20"
-    eslint: "npm:^9.16.0"
+    eslint: "npm:^9.17.0"
     eslint-plugin-tailwindcss: "npm:^3.17.5"
     http-status-codes: "npm:^2.3.0"
     next: "npm:^15.1.0"
@@ -49,10 +49,10 @@ __metadata:
     "@types/yargs": "npm:17.0.33"
     "@vitest/coverage-istanbul": "npm:2.1.8"
     "@vitest/ui": "npm:2.1.8"
-    eslint: "npm:^9.16.0"
+    eslint: "npm:^9.17.0"
     npm-run-all: "npm:4.1.5"
     rimraf: "npm:6.0.1"
-    type-fest: "npm:4.30.0"
+    type-fest: "npm:4.30.2"
     typescript: "npm:^5.7.2"
     vite-tsconfig-paths: "npm:5.1.4"
     vitest: "npm:2.1.8"
@@ -68,7 +68,7 @@ __metadata:
     "@types/node": "npm:22.10.2"
     "@vitest/coverage-istanbul": "npm:2.1.8"
     "@vitest/ui": "npm:2.1.8"
-    eslint: "npm:^9.16.0"
+    eslint: "npm:^9.17.0"
     npm-run-all: "npm:4.1.5"
     rimraf: "npm:6.0.1"
     typescript: "npm:^5.7.2"
@@ -86,9 +86,9 @@ __metadata:
     "@vitest/coverage-istanbul": "npm:2.1.8"
     "@vitest/ui": "npm:2.1.8"
     ansi-escapes: "npm:7.0.0"
-    ansis: "npm:3.3.2"
+    ansis: "npm:3.4.0"
     cfonts: "npm:3.3.0"
-    eslint: "npm:^9.16.0"
+    eslint: "npm:^9.17.0"
     minimist: "npm:^1.2.8"
     npm-run-all: "npm:4.1.5"
     rimraf: "npm:6.0.1"
@@ -108,7 +108,7 @@ __metadata:
     "@vitest/coverage-istanbul": "npm:2.1.8"
     "@vitest/ui": "npm:2.1.8"
     conditional-type-checks: "npm:1.0.6"
-    eslint: "npm:^9.16.0"
+    eslint: "npm:^9.17.0"
     minimist: "npm:^1.2.8"
     npm-run-all: "npm:4.1.5"
     rimraf: "npm:6.0.1"
@@ -699,20 +699,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:19.6.0":
-  version: 19.6.0
-  resolution: "@commitlint/cli@npm:19.6.0"
+"@commitlint/cli@npm:19.6.1":
+  version: 19.6.1
+  resolution: "@commitlint/cli@npm:19.6.1"
   dependencies:
     "@commitlint/format": "npm:^19.5.0"
     "@commitlint/lint": "npm:^19.6.0"
-    "@commitlint/load": "npm:^19.5.0"
+    "@commitlint/load": "npm:^19.6.1"
     "@commitlint/read": "npm:^19.5.0"
     "@commitlint/types": "npm:^19.5.0"
     tinyexec: "npm:^0.3.0"
     yargs: "npm:^17.0.0"
   bin:
     commitlint: cli.js
-  checksum: 10/12ed3ad48de1b838c6603f39970b6fde6fd0594f86402e40cccb72940b4c9b1b1321e11606caffdf46b54ce8730c38970bc08e56b8878b9709c44ceb2a520bfa
+  checksum: 10/b63b8a716d943419a0bb0542e752d380d62f2715266ae0bb53911f3fe749ae9c3bf0fd591abd87be6b863e522ca183c7bac6a82ef73255a5c5bbeceb620ecbb1
   languageName: node
   linkType: hard
 
@@ -789,9 +789,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/load@npm:>6.1.1, @commitlint/load@npm:^19.5.0":
-  version: 19.5.0
-  resolution: "@commitlint/load@npm:19.5.0"
+"@commitlint/load@npm:>6.1.1, @commitlint/load@npm:^19.6.1":
+  version: 19.6.1
+  resolution: "@commitlint/load@npm:19.6.1"
   dependencies:
     "@commitlint/config-validator": "npm:^19.5.0"
     "@commitlint/execute-rule": "npm:^19.5.0"
@@ -799,11 +799,11 @@ __metadata:
     "@commitlint/types": "npm:^19.5.0"
     chalk: "npm:^5.3.0"
     cosmiconfig: "npm:^9.0.0"
-    cosmiconfig-typescript-loader: "npm:^5.0.0"
+    cosmiconfig-typescript-loader: "npm:^6.1.0"
     lodash.isplainobject: "npm:^4.0.6"
     lodash.merge: "npm:^4.6.2"
     lodash.uniq: "npm:^4.5.0"
-  checksum: 10/87a9450c768632c09e9d98993752a5622aee698642eee5a9b31c3c48625455e043406b7ea6e02a8f41d86c524c9ecbdb9b823caf67da3048f0d96531177fda28
+  checksum: 10/f340060751016de8e06f67137373f9ec51aff85ceb7ac8d5eec1bfb3693df38f7ad2c231fd1dd61acf58affb2f514761c12281328aacceaacef455d25d58c2ce
   languageName: node
   linkType: hard
 
@@ -1129,10 +1129,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.16.0, @eslint/js@npm:^9.16.0":
-  version: 9.16.0
-  resolution: "@eslint/js@npm:9.16.0"
-  checksum: 10/122da09b6a2c6a92d68be26146af1da17d9d4e03cf9435a874d341f18519122eef9ed229e52a1b781dc5987239754954e80a0b11bbe8f65df96e9ef8f3b438ad
+"@eslint/js@npm:9.17.0, @eslint/js@npm:^9.16.0":
+  version: 9.17.0
+  resolution: "@eslint/js@npm:9.17.0"
+  checksum: 10/1a89e62f5c50e75d44565b7f3b91701455a999132c991e10bac59c118fbb54bdd54be22b9bda1ac730f78a2e64604403d65ce5dd7726d80b2632982cfc3d84ac
   languageName: node
   linkType: hard
 
@@ -3275,14 +3275,14 @@ __metadata:
   dependencies:
     "@changesets/changelog-git": "npm:0.2.0"
     "@changesets/cli": "npm:2.27.10"
-    "@commitlint/cli": "npm:19.6.0"
+    "@commitlint/cli": "npm:19.6.1"
     "@commitlint/config-conventional": "npm:19.6.0"
     "@hyperse/eslint-config-hyperse": "npm:^1.2.8"
     "@hyperse/ts-node-paths": "npm:^1.0.11"
     commitizen: "npm:4.3.1"
     cross-env: "npm:7.0.3"
     cz-conventional-changelog: "npm:3.3.0"
-    eslint: "npm:^9.16.0"
+    eslint: "npm:^9.17.0"
     husky: "npm:9.1.7"
     is-ci: "npm:4.1.0"
     lint-staged: "npm:15.2.11"
@@ -3396,10 +3396,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ansis@npm:3.3.2":
-  version: 3.3.2
-  resolution: "ansis@npm:3.3.2"
-  checksum: 10/e6c7b93a4f7b1e22c2d11ba53736af7f56c2952f6497ea109757573738fa0e7317066377577d9896a3e1db7ce2bd622ab2eabc7f6cdab6c0e0f9b25eebb5d2af
+"ansis@npm:3.4.0":
+  version: 3.4.0
+  resolution: "ansis@npm:3.4.0"
+  checksum: 10/828ad5a8235ff9e745b9b16e7f8f42efc86943cd2ca8fd253a5a18497a573bb2a5d2abdce8c86805c94b67b9a29d9802a27d5299f04e97775d948ba9363ddd78
   languageName: node
   linkType: hard
 
@@ -4438,16 +4438,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cosmiconfig-typescript-loader@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "cosmiconfig-typescript-loader@npm:5.0.0"
+"cosmiconfig-typescript-loader@npm:^6.1.0":
+  version: 6.1.0
+  resolution: "cosmiconfig-typescript-loader@npm:6.1.0"
   dependencies:
-    jiti: "npm:^1.19.1"
+    jiti: "npm:^2.4.1"
   peerDependencies:
     "@types/node": "*"
-    cosmiconfig: ">=8.2"
-    typescript: ">=4"
-  checksum: 10/ccbb367fe92e623207cb33a85c1fe2e2b592e2af845b38c39c0781e0b05c1a72642eec9bea1ed589d0ac95b47c5d1f232f43cbbe0f68b6218f7d887d9813f850
+    cosmiconfig: ">=9"
+    typescript: ">=5"
+  checksum: 10/e8b28b08759753c46a991e3d4db675480ea0081da9c098e426a89f4a12395e448c3090536d1ec1cb7adb5d7beb0ea266b7717053e3adbc283806a3b62339b68d
   languageName: node
   linkType: hard
 
@@ -4493,7 +4493,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cross-spawn@npm:^7.0.0, cross-spawn@npm:^7.0.1, cross-spawn@npm:^7.0.3, cross-spawn@npm:^7.0.5":
+"cross-spawn@npm:^7.0.0, cross-spawn@npm:^7.0.1, cross-spawn@npm:^7.0.3, cross-spawn@npm:^7.0.5, cross-spawn@npm:^7.0.6":
   version: 7.0.6
   resolution: "cross-spawn@npm:7.0.6"
   dependencies:
@@ -6011,16 +6011,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^9.16.0":
-  version: 9.16.0
-  resolution: "eslint@npm:9.16.0"
+"eslint@npm:^9.17.0":
+  version: 9.17.0
+  resolution: "eslint@npm:9.17.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.2.0"
     "@eslint-community/regexpp": "npm:^4.12.1"
     "@eslint/config-array": "npm:^0.19.0"
     "@eslint/core": "npm:^0.9.0"
     "@eslint/eslintrc": "npm:^3.2.0"
-    "@eslint/js": "npm:9.16.0"
+    "@eslint/js": "npm:9.17.0"
     "@eslint/plugin-kit": "npm:^0.2.3"
     "@humanfs/node": "npm:^0.16.6"
     "@humanwhocodes/module-importer": "npm:^1.0.1"
@@ -6029,7 +6029,7 @@ __metadata:
     "@types/json-schema": "npm:^7.0.15"
     ajv: "npm:^6.12.4"
     chalk: "npm:^4.0.0"
-    cross-spawn: "npm:^7.0.5"
+    cross-spawn: "npm:^7.0.6"
     debug: "npm:^4.3.2"
     escape-string-regexp: "npm:^4.0.0"
     eslint-scope: "npm:^8.2.0"
@@ -6056,7 +6056,7 @@ __metadata:
       optional: true
   bin:
     eslint: bin/eslint.js
-  checksum: 10/b47a34392a55bc08594ee2fed2777d7aff96f38b584791ccded44d88b72795acfe15b18643fd4046f680734a1f16244d554f34a485f660fa723e25d609fb12ba
+  checksum: 10/a48ee67dd4e737974bbb49ca5d12d0ce35bcd874507807599e3655bb398320ab27c9deed1aad508a963967815e626c21208f52158c2fc0796d0cc8186528efeb
   languageName: node
   linkType: hard
 
@@ -8212,12 +8212,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jiti@npm:^1.19.1, jiti@npm:^1.21.6":
+"jiti@npm:^1.21.6":
   version: 1.21.6
   resolution: "jiti@npm:1.21.6"
   bin:
     jiti: bin/jiti.js
   checksum: 10/289b124cea411c130a14ffe88e3d38376ab44b6695616dfa0a1f32176a8f20ec90cdd6d2b9d81450fc6467cfa4d865f04f49b98452bff0f812bc400fd0ae78d6
+  languageName: node
+  linkType: hard
+
+"jiti@npm:^2.4.1":
+  version: 2.4.1
+  resolution: "jiti@npm:2.4.1"
+  bin:
+    jiti: lib/jiti-cli.mjs
+  checksum: 10/c05d3645ff4a88f5c52e33757dbae18737f6b51aa46631ed18cbf7741f2d997eb91ffd4249f61b47779d8ac1931d6539ec48dfdab8e1ca761cc160aa240d09f2
   languageName: node
   linkType: hard
 
@@ -13211,10 +13220,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:4.30.0":
-  version: 4.30.0
-  resolution: "type-fest@npm:4.30.0"
-  checksum: 10/46c733df4feb87dfd281fba4fa3913dc38b45136be35adffbcef95e13414105a4669476c1f8686680b9c98e59ed5dc85efe42caf67adbaa04f48dfc41f8330fa
+"type-fest@npm:4.30.2":
+  version: 4.30.2
+  resolution: "type-fest@npm:4.30.2"
+  checksum: 10/c5168b159c366e4fd5b74c7f7b786bed9248c03f67e6e07d52dd5d51354447468fa7c92b9f2142c7fe9279814031f783959370242c3520de848931b65ddb48bb
   languageName: node
   linkType: hard
 
