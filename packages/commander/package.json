@@ -32,8 +32,8 @@
   },
   "dependencies": {
     "@agilejs/terminal": "workspace:*",
-    "@armit/logger": "0.2.7",
-    "@armit/logger-node": "0.2.8",
+    "@armit/logger": "0.2.8",
+    "@armit/logger-node": "0.2.9",
     "yargs": "17.7.2"
   },
   "devDependencies": {
