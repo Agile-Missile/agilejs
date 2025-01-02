@@ -1,5 +1,13 @@
 # @agile/commander
 
+## 1.0.8
+
+### Patch Changes
+
+- bf0a934: bump version
+- Updated dependencies [bf0a934]
+  - @agilejs/terminal@1.0.8
+
 ## 1.0.7
 
 ### Patch Changes

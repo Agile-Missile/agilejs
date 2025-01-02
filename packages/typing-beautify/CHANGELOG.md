@@ -1,5 +1,12 @@
 # @agilejs/typing-beautify
 
+## 1.0.6
+
+### Patch Changes
+
+- bf0a934: bump version
+- b942fe5: add merge
+
 ## 1.0.5
 
 ### Patch Changes
