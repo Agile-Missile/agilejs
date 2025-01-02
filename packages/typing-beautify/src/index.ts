@@ -12,6 +12,8 @@ export * from './last-array/index.js';
 export * from './make-optional/index.js';
 export * from './mark-readonly/index.js';
 export * from './mark-required/index.js';
+export * from './merge/index.js';
+export * from './merge-tuple/index.js';
 export * from './override-options/index.js';
 export * from './path-value/index.js';
 export * from './paths/index.js';
