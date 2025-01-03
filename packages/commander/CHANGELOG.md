@@ -1,5 +1,11 @@
 # @agile/commander
 
+## 1.0.9
+
+### Patch Changes
+
+- fb97423: update @types/yargs
+
 ## 1.0.8
 
 ### Patch Changes
