@@ -34,13 +34,13 @@
     "@agilejs/terminal": "workspace:*",
     "@armit/logger": "0.2.8",
     "@armit/logger-node": "0.2.9",
+    "@types/yargs": "17.0.33",
     "yargs": "17.7.2"
   },
   "devDependencies": {
     "@hyperse/eslint-config-hyperse": "^1.2.8",
     "@hyperse/exec-program": "1.0.10",
     "@types/node": "22.10.2",
-    "@types/yargs": "17.0.33",
     "@vitest/coverage-istanbul": "2.1.8",
     "@vitest/ui": "2.1.8",
     "eslint": "^9.17.0",
