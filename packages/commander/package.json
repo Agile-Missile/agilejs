@@ -38,16 +38,16 @@
     "yargs": "17.7.2"
   },
   "devDependencies": {
-    "@hyperse/eslint-config-hyperse": "^1.2.8",
+    "@hyperse/eslint-config-hyperse": "^1.2.9",
     "@hyperse/exec-program": "1.0.10",
-    "@types/node": "22.10.2",
+    "@types/node": "22.10.5",
     "@vitest/coverage-istanbul": "2.1.8",
     "@vitest/ui": "2.1.8",
-    "eslint": "^9.17.0",
+    "eslint": "^9.18.0",
     "npm-run-all": "4.1.5",
     "rimraf": "6.0.1",
-    "type-fest": "4.30.2",
-    "typescript": "^5.7.2",
+    "type-fest": "4.32.0",
+    "typescript": "^5.7.3",
     "vite-tsconfig-paths": "5.1.4",
     "vitest": "2.1.8"
   },

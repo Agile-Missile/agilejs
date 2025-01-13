@@ -8,10 +8,15 @@ type TestCmdArgs = CommandArgv<{
   test: number;
 }>;
 
+function sleep(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 class CmdTestHandle extends AbstractHandler<TestCmdArgs> {
-  handle(): void | Promise<void> {
+  async handle(): Promise<void> {
     console.log('this is test command handle');
     this.logger.debug('this is debug message for test command');
+    await sleep(1000);
   }
   initialize(): void {
     //
