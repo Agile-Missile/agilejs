@@ -26,3 +26,4 @@ export * from './tuple-reverse/index.js';
 export * from './tuple-to-union/index.js';
 export * from './union-to-tuple/index.js';
 export * from './value-of/index.js';
+export * from './writable/index.js';
