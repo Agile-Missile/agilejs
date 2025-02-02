@@ -1,5 +1,11 @@
 # @agilejs/typing-beautify
 
+## 1.0.7
+
+### Patch Changes
+
+- 0ce4225: add writable
+
 ## 1.0.6
 
 ### Patch Changes
