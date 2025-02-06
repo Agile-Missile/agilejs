@@ -1,6 +1,6 @@
 # @agilejs/typing-beautify
 
-`@agilejs/typing-beautify` is a collection of TypeScript utility types designed to simplify and beautify your type definitions. It provides a range of tools to manipulate and transform types in a more intuitive and expressive way.
+A collection of TypeScript utility types designed to simplify and beautify your type definitions. It provides a range of tools to manipulate and transform types in a more intuitive and expressive way.
 
 ## Features
 
