@@ -1,5 +1,12 @@
 # @agilejs/typing-beautify
 
+## 1.0.7
+
+### Patch Changes
+
+- 162de97: add camel-case & deep-camel-case-properties
+- 0ce4225: add writable
+
 ## 1.0.6
 
 ### Patch Changes
