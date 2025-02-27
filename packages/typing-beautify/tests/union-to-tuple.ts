@@ -5,6 +5,7 @@ type ExtractValuesOfTuple<T extends any[]> = T[keyof T & number];
 
 type cases = [
   AssertTrue<IsExact<UnionToTuple<'a' | 'b'>['length'], 2>>,
+  AssertTrue<IsExact<UnionToTuple<'a' | 'b'>, ['b', 'a']>>,
   AssertTrue<IsExact<ExtractValuesOfTuple<UnionToTuple<'a' | 'b'>>, 'a' | 'b'>>,
   AssertTrue<IsExact<ExtractValuesOfTuple<UnionToTuple<'a'>>, 'a'>>,
   AssertTrue<IsExact<ExtractValuesOfTuple<UnionToTuple<any>>, any>>,
@@ -25,10 +26,8 @@ type cases = [
   AssertTrue<IsExact<ExtractValuesOfTuple<UnionToTuple<never>>, never>>,
   AssertTrue<
     IsExact<
-      ExtractValuesOfTuple<
-        UnionToTuple<'a' | 'b' | 'c' | 1 | 2 | 'd' | 'e' | 'f' | 'g'>
-      >,
-      'f' | 'e' | 1 | 2 | 'g' | 'c' | 'd' | 'a' | 'b'
+      UnionToTuple<'a' | 'b' | 'c' | 1 | 2 | 'd' | 'e' | 'f' | 'g'>,
+      ['g', 'e', 'c', 2, 'f', 'd', 1, 'b', 'a']
     >
   >,
 ];
