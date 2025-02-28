@@ -26,8 +26,10 @@ type cases = [
   AssertTrue<IsExact<ExtractValuesOfTuple<UnionToTuple<never>>, never>>,
   AssertTrue<
     IsExact<
-      UnionToTuple<'a' | 'b' | 'c' | 1 | 2 | 'd' | 'e' | 'f' | 'g'>,
-      ['g', 'e', 'c', 2, 'f', 'd', 1, 'b', 'a']
+      ExtractValuesOfTuple<
+        UnionToTuple<'a' | 'b' | 'c' | 1 | 2 | 'd' | 'e' | 'f' | 'g'>
+      >,
+      'g' | 'e' | 'c' | 2 | 'f' | 'd' | 1 | 'b' | 'a'
     >
   >,
 ];
