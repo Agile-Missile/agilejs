@@ -14,7 +14,7 @@ __metadata:
     "@hyperse/eslint-config-hyperse": "npm:^1.2.10"
     "@tailwindcss/typography": "npm:^0.5.16"
     "@types/animejs": "npm:^3"
-    "@types/node": "npm:22.13.5"
+    "@types/node": "npm:22.13.8"
     "@types/react": "npm:^19.0.10"
     animejs: "npm:3.2.2"
     autoprefixer: "npm:^10.4.20"
@@ -32,7 +32,7 @@ __metadata:
     react-dom: "npm:^18.3.1"
     tailwind-merge: "npm:^3.0.2"
     tailwindcss: "npm:^4.0.9"
-    typescript: "npm:5.7.3"
+    typescript: "npm:5.8.2"
   languageName: unknown
   linkType: soft
 
@@ -45,15 +45,15 @@ __metadata:
     "@armit/logger-node": "npm:0.2.10"
     "@hyperse/eslint-config-hyperse": "npm:^1.2.10"
     "@hyperse/exec-program": "npm:1.0.10"
-    "@types/node": "npm:22.13.5"
+    "@types/node": "npm:22.13.8"
     "@types/yargs": "npm:17.0.33"
     "@vitest/coverage-istanbul": "npm:3.0.7"
     "@vitest/ui": "npm:3.0.7"
     eslint: "npm:^9.21.0"
     npm-run-all: "npm:4.1.5"
     rimraf: "npm:6.0.1"
-    type-fest: "npm:4.35.0"
-    typescript: "npm:^5.7.3"
+    type-fest: "npm:4.36.0"
+    typescript: "npm:^5.8.2"
     vite-tsconfig-paths: "npm:5.1.4"
     vitest: "npm:3.0.7"
     yargs: "npm:17.7.2"
@@ -65,13 +65,13 @@ __metadata:
   resolution: "@agilejs/logger@workspace:packages/logger"
   dependencies:
     "@hyperse/eslint-config-hyperse": "npm:^1.2.10"
-    "@types/node": "npm:22.13.5"
+    "@types/node": "npm:22.13.8"
     "@vitest/coverage-istanbul": "npm:3.0.7"
     "@vitest/ui": "npm:3.0.7"
     eslint: "npm:^9.21.0"
     npm-run-all: "npm:4.1.5"
     rimraf: "npm:6.0.1"
-    typescript: "npm:^5.7.3"
+    typescript: "npm:^5.8.2"
     vite-tsconfig-paths: "npm:5.1.4"
     vitest: "npm:3.0.7"
   languageName: unknown
@@ -82,7 +82,7 @@ __metadata:
   resolution: "@agilejs/terminal@workspace:packages/terminal"
   dependencies:
     "@hyperse/eslint-config-hyperse": "npm:^1.2.10"
-    "@types/node": "npm:22.13.5"
+    "@types/node": "npm:22.13.8"
     "@vitest/coverage-istanbul": "npm:3.0.7"
     "@vitest/ui": "npm:3.0.7"
     ansi-escapes: "npm:7.0.0"
@@ -93,7 +93,7 @@ __metadata:
     npm-run-all: "npm:4.1.5"
     rimraf: "npm:6.0.1"
     supports-hyperlinks: "npm:3.2.0"
-    typescript: "npm:^5.7.3"
+    typescript: "npm:^5.8.2"
     vite-tsconfig-paths: "npm:5.1.4"
     vitest: "npm:3.0.7"
   languageName: unknown
@@ -104,7 +104,7 @@ __metadata:
   resolution: "@agilejs/typing-beautify@workspace:packages/typing-beautify"
   dependencies:
     "@hyperse/eslint-config-hyperse": "npm:^1.2.10"
-    "@types/node": "npm:22.13.5"
+    "@types/node": "npm:22.13.8"
     "@vitest/coverage-istanbul": "npm:3.0.7"
     "@vitest/ui": "npm:3.0.7"
     conditional-type-checks: "npm:1.0.6"
@@ -112,7 +112,7 @@ __metadata:
     minimist: "npm:^1.2.8"
     npm-run-all: "npm:4.1.5"
     rimraf: "npm:6.0.1"
-    typescript: "npm:^5.7.3"
+    typescript: "npm:^5.8.2"
     vite-tsconfig-paths: "npm:5.1.4"
     vitest: "npm:3.0.7"
   languageName: unknown
@@ -2831,12 +2831,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:22.13.5":
-  version: 22.13.5
-  resolution: "@types/node@npm:22.13.5"
+"@types/node@npm:*, @types/node@npm:22.13.8":
+  version: 22.13.8
+  resolution: "@types/node@npm:22.13.8"
   dependencies:
     undici-types: "npm:~6.20.0"
-  checksum: 10/a69ec8dba36a58a93e3ec3709a6a362ca0cdd8443310bb5e43b0c1f560c57bcc120c96fabb301ef42c2901f46103adad5158b6923ea14e8e14a432af20a2bb24
+  checksum: 10/b69de3caab80336747bf41b5063478d23b196b9594c6f2eb819791380cc571676087dceb0fde9531ef7a1293f3eae12a9aaf79d8de349378c29a17c5e657bc78
   languageName: node
   linkType: hard
 
@@ -3494,7 +3494,7 @@ __metadata:
     npm-run-all: "npm:4.1.5"
     rimraf: "npm:6.0.1"
     terser: "npm:5.39.0"
-    typescript: "npm:5.7.3"
+    typescript: "npm:5.8.2"
   languageName: unknown
   linkType: soft
 
@@ -13680,10 +13680,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:4.35.0":
-  version: 4.35.0
-  resolution: "type-fest@npm:4.35.0"
-  checksum: 10/43aada576d02f2f5230bd46c859e421a1307694312b3405088a48fcc67d65bee12eafbdcd182cffe0577dd72346595cb90a1ab5700626df35bc8935cf02c635b
+"type-fest@npm:4.36.0":
+  version: 4.36.0
+  resolution: "type-fest@npm:4.36.0"
+  checksum: 10/7b022daef6abafc6095892b3da821b80c37d3a48d5ce514cd4a1eb9fe0f7348b0c90ae0a93c24cc7df25df3c6f556c46408ddc069fdedb04edc72cd205323371
   languageName: node
   linkType: hard
 
@@ -13782,23 +13782,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.7.3, typescript@npm:^5.7.3":
-  version: 5.7.3
-  resolution: "typescript@npm:5.7.3"
+"typescript@npm:5.8.2, typescript@npm:^5.8.2":
+  version: 5.8.2
+  resolution: "typescript@npm:5.8.2"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10/6a7e556de91db3d34dc51cd2600e8e91f4c312acd8e52792f243c7818dfadb27bae677175fad6947f9c81efb6c57eb6b2d0c736f196a6ee2f1f7d57b74fc92fa
+  checksum: 10/dbc2168a55d56771f4d581997be52bab5cbc09734fec976cfbaabd787e61fb4c6cf9125fd48c6f98054ce549c77ecedefc7f64252a830dd8e9c3381f61fbeb78
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A^5.7.3#optional!builtin<compat/typescript>":
-  version: 5.7.3
-  resolution: "typescript@patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=b45daf"
+"typescript@patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A^5.8.2#optional!builtin<compat/typescript>":
+  version: 5.8.2
+  resolution: "typescript@patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=b45daf"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10/3ac7b7e3e899273d2fbdce6e24b93d4d53a705ad7a7e4cc83b4c57bcb6d25948abcd2a21994f6b9c73ab03960f395aae95f0458de292a66ce0134233261714c3
+  checksum: 10/6ae9b2c4d3254ec2eaee6f26ed997e19c02177a212422993209f81e87092b2bb0a4738085549c5b0164982a5609364c047c72aeb281f6c8d802cd0d1c6f0d353
   languageName: node
   linkType: hard
 

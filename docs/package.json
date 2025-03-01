@@ -36,12 +36,12 @@
   "devDependencies": {
     "@armit/eslint-config-bases": "^0.1.6",
     "@types/animejs": "^3",
-    "@types/node": "22.13.5",
+    "@types/node": "22.13.8",
     "@types/react": "^19.0.10",
     "eslint": "^9.21.0",
     "eslint-plugin-tailwindcss": "^3.18.0",
     "prettier": "3.5.2",
-    "typescript": "5.7.3"
+    "typescript": "5.8.2"
   },
   "engines": {
     "node": ">=18.0.0"
