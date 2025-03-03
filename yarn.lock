@@ -77,6 +77,25 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@agilejs/resolver@workspace:packages/resolver":
+  version: 0.0.0-use.local
+  resolution: "@agilejs/resolver@workspace:packages/resolver"
+  dependencies:
+    "@agilejs/typing-beautify": "workspace:*"
+    "@hyperse/eslint-config-hyperse": "npm:^1.2.10"
+    "@types/node": "npm:22.13.8"
+    "@vitest/coverage-istanbul": "npm:3.0.7"
+    "@vitest/ui": "npm:3.0.7"
+    eslint: "npm:^9.21.0"
+    minimist: "npm:^1.2.8"
+    npm-run-all: "npm:4.1.5"
+    rimraf: "npm:6.0.1"
+    typescript: "npm:^5.8.2"
+    vite-tsconfig-paths: "npm:5.1.4"
+    vitest: "npm:3.0.7"
+  languageName: unknown
+  linkType: soft
+
 "@agilejs/terminal@workspace:*, @agilejs/terminal@workspace:packages/terminal":
   version: 0.0.0-use.local
   resolution: "@agilejs/terminal@workspace:packages/terminal"
@@ -99,7 +118,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@agilejs/typing-beautify@workspace:packages/typing-beautify":
+"@agilejs/typing-beautify@workspace:*, @agilejs/typing-beautify@workspace:packages/typing-beautify":
   version: 0.0.0-use.local
   resolution: "@agilejs/typing-beautify@workspace:packages/typing-beautify"
   dependencies:
