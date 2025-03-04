@@ -1,0 +1,61 @@
+{
+  "name": "@agilejs/package",
+  "version": "1.0.1",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "./bin/",
+    "./dist/",
+    "./index.js"
+  ],
+  "scripts": {
+    "dev": "yarn node --import=@hyperse/ts-node-paths/register tests/test.ts",
+    "build": "rimraf dist && tsc -p ./tsconfig.build.json",
+    "?build-release": "When https://github.com/atlassian/changesets/issues/432 has a solution we can remove this trick",
+    "build-release": "yarn build && rimraf ./_release && yarn pack && mkdir ./_release && tar zxvf ./package.tgz --directory ./_release && rm ./package.tgz",
+    "clean": "rimraf --no-glob ./dist ./coverage ./__data__ ./config/__data__ ./_release ./tsconfig.tsbuildinfo",
+    "lint": "eslint . --cache --cache-location ../../.cache/eslint/forge.eslintcache",
+    "test": "run-s test-unit",
+    "test-task": "vitest run",
+    "test-unit": "vitest run --passWithNoTests",
+    "test-watch": "vitest watch --ui",
+    "fix-all-files": "eslint . --fix",
+    "typecheck": "tsc --project ./tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@agilejs/typing-beautify": "workspace:*",
+    "resolve-dir": "^1.0.1",
+    "type-fest": "^4.37.0"
+  },
+  "devDependencies": {
+    "@hyperse/eslint-config-hyperse": "^1.2.10",
+    "@types/node": "^22.13.8",
+    "@types/resolve-dir": "^0.0.0",
+    "@vitest/coverage-istanbul": "^3.0.7",
+    "@vitest/ui": "^3.0.7",
+    "eslint": "^9.21.0",
+    "minimist": "^1.2.8",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.2",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.0.7"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "directory": "_release/package"
+  }
+}

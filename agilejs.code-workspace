@@ -24,6 +24,10 @@
       "name": "typing-beautify",
       "path": "packages/typing-beautify",
     },
+    {
+      "name": "package",
+      "path": "packages/package",
+    },
   ],
   "extensions": {
     "recommendations": [
@@ -53,6 +57,7 @@
       "./packages/commander",
       "./packages/logger",
       "./packages/typing-beautify",
+      "./packages/package",
     ],
     "typescript.tsdk": "root/node_modules/typescript/lib",
     "[json]": {
