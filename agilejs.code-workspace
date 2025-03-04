@@ -25,8 +25,8 @@
       "path": "packages/typing-beautify",
     },
     {
-      "name": "resolver",
-      "path": "packages/resolver",
+      "name": "package",
+      "path": "packages/package",
     },
   ],
   "extensions": {
@@ -57,7 +57,7 @@
       "./packages/commander",
       "./packages/logger",
       "./packages/typing-beautify",
-      "./packages/resolver",
+      "./packages/package",
     ],
     "typescript.tsdk": "root/node_modules/typescript/lib",
     "[json]": {

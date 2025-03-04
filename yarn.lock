@@ -77,22 +77,25 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@agilejs/resolver@workspace:packages/resolver":
+"@agilejs/package@workspace:packages/package":
   version: 0.0.0-use.local
-  resolution: "@agilejs/resolver@workspace:packages/resolver"
+  resolution: "@agilejs/package@workspace:packages/package"
   dependencies:
     "@agilejs/typing-beautify": "workspace:*"
     "@hyperse/eslint-config-hyperse": "npm:^1.2.10"
-    "@types/node": "npm:22.13.8"
-    "@vitest/coverage-istanbul": "npm:3.0.7"
-    "@vitest/ui": "npm:3.0.7"
+    "@types/node": "npm:^22.13.8"
+    "@types/resolve-dir": "npm:^0.0.0"
+    "@vitest/coverage-istanbul": "npm:^3.0.7"
+    "@vitest/ui": "npm:^3.0.7"
     eslint: "npm:^9.21.0"
     minimist: "npm:^1.2.8"
-    npm-run-all: "npm:4.1.5"
-    rimraf: "npm:6.0.1"
+    npm-run-all: "npm:^4.1.5"
+    resolve-dir: "npm:^1.0.1"
+    rimraf: "npm:^6.0.1"
+    type-fest: "npm:^4.37.0"
     typescript: "npm:^5.8.2"
-    vite-tsconfig-paths: "npm:5.1.4"
-    vitest: "npm:3.0.7"
+    vite-tsconfig-paths: "npm:^5.1.4"
+    vitest: "npm:^3.0.7"
   languageName: unknown
   linkType: soft
 
@@ -2850,7 +2853,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:22.13.8":
+"@types/node@npm:*, @types/node@npm:^22.13.8":
+  version: 22.13.9
+  resolution: "@types/node@npm:22.13.9"
+  dependencies:
+    undici-types: "npm:~6.20.0"
+  checksum: 10/23560df3ee99c907179c688754486b969a72144f2e2bdefe974d320dddc5ca8f93365842966ecbd5c5bba34e919fc1a5a6627712beb8e7f71d71347dcf414a35
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:22.13.8":
   version: 22.13.8
   resolution: "@types/node@npm:22.13.8"
   dependencies:
@@ -2881,6 +2893,13 @@ __metadata:
   dependencies:
     csstype: "npm:^3.0.2"
   checksum: 10/10b592d212ebe4b4e0bd42a95c58af3d8dfcb8b3fa4b412d686c2ff8810d5dd3e3a30ebedb31d7b738e33a39c43503e24fe4e6ca8a21d842870043793f4eda98
+  languageName: node
+  linkType: hard
+
+"@types/resolve-dir@npm:^0.0.0":
+  version: 0.0.0
+  resolution: "@types/resolve-dir@npm:0.0.0"
+  checksum: 10/3e2ddf6956e8680c0d1c78cc3938ab70ddbc5bcf849809481fc6bceb4b7438cf0cd01208ad0d737b5104854ef4ddaccf2a010ef44acf13c4c7f7ef5b7cfd0ce0
   languageName: node
   linkType: hard
 
@@ -3239,7 +3258,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/coverage-istanbul@npm:3.0.7":
+"@vitest/coverage-istanbul@npm:3.0.7, @vitest/coverage-istanbul@npm:^3.0.7":
   version: 3.0.7
   resolution: "@vitest/coverage-istanbul@npm:3.0.7"
   dependencies:
@@ -3387,7 +3406,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/ui@npm:3.0.7":
+"@vitest/ui@npm:3.0.7, @vitest/ui@npm:^3.0.7":
   version: 3.0.7
   resolution: "@vitest/ui@npm:3.0.7"
   dependencies:
@@ -10661,7 +10680,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"npm-run-all@npm:4.1.5":
+"npm-run-all@npm:4.1.5, npm-run-all@npm:^4.1.5":
   version: 4.1.5
   resolution: "npm-run-all@npm:4.1.5"
   dependencies:
@@ -12204,7 +12223,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rimraf@npm:6.0.1":
+"rimraf@npm:6.0.1, rimraf@npm:^6.0.1":
   version: 6.0.1
   resolution: "rimraf@npm:6.0.1"
   dependencies:
@@ -13727,6 +13746,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"type-fest@npm:^4.37.0":
+  version: 4.37.0
+  resolution: "type-fest@npm:4.37.0"
+  checksum: 10/882cf05374d7c635cbbbc50cb89863dad3d27a77c426d062144ba32b23a44087193213c5bbd64f3ab8be04215005c950286567be06fecca9d09c66abd290ef01
+  languageName: node
+  linkType: hard
+
 "typed-array-buffer@npm:^1.0.3":
   version: 1.0.3
   resolution: "typed-array-buffer@npm:1.0.3"
@@ -14281,7 +14307,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-tsconfig-paths@npm:5.1.4":
+"vite-tsconfig-paths@npm:5.1.4, vite-tsconfig-paths@npm:^5.1.4":
   version: 5.1.4
   resolution: "vite-tsconfig-paths@npm:5.1.4"
   dependencies:
@@ -14392,7 +14418,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:3.0.7":
+"vitest@npm:3.0.7, vitest@npm:^3.0.7":
   version: 3.0.7
   resolution: "vitest@npm:3.0.7"
   dependencies:
