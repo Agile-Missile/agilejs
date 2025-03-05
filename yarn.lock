@@ -90,6 +90,7 @@ __metadata:
     eslint: "npm:^9.21.0"
     minimist: "npm:^1.2.8"
     npm-run-all: "npm:^4.1.5"
+    pkg-dir: "npm:8.0.0"
     resolve-dir: "npm:^1.0.1"
     rimraf: "npm:^6.0.1"
     type-fest: "npm:^4.37.0"
@@ -11392,6 +11393,15 @@ __metadata:
   version: 4.0.6
   resolution: "pirates@npm:4.0.6"
   checksum: 10/d02dda76f4fec1cbdf395c36c11cf26f76a644f9f9a1bfa84d3167d0d3154d5289aacc72677aa20d599bb4a6937a471de1b65c995e2aea2d8687cbcd7e43ea5f
+  languageName: node
+  linkType: hard
+
+"pkg-dir@npm:8.0.0":
+  version: 8.0.0
+  resolution: "pkg-dir@npm:8.0.0"
+  dependencies:
+    find-up-simple: "npm:^1.0.0"
+  checksum: 10/e589abebd1b76cbc3669a45df64f63cc1b041fd3a6588b45d4c692207df126f2a67478a804e5beeb729e75efea06cd405fb84445c879e7af346ba46a4a30b1ff
   languageName: node
   linkType: hard
 
