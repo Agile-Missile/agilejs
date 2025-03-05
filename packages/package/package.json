@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "@agilejs/typing-beautify": "workspace:*",
+    "pkg-dir": "8.0.0",
     "resolve-dir": "^1.0.1",
     "type-fest": "^4.37.0"
   },
