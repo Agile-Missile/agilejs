@@ -55,13 +55,13 @@ jobs:
 
       - name: Linter
         run: |
-          yarn lint
+          yarn g:lint
 
       #  build first then exec unit tests
       - name: Unit tests
         run: |
-          yarn test
+          yarn g:test
 
       - name: Build
         run: |
-          yarn build
+          yarn g:build
