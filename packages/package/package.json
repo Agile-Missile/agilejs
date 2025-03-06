@@ -38,8 +38,8 @@
     "type-fest": "^4.37.0"
   },
   "devDependencies": {
-    "@hyperse/eslint-config-hyperse": "^1.2.10",
-    "@types/node": "^22.13.8",
+    "@hyperse/eslint-config-hyperse": "^1.2.11",
+    "@types/node": "^22.13.9",
     "@types/resolve-dir": "^0.0.0",
     "@vitest/coverage-istanbul": "^3.0.7",
     "@vitest/ui": "^3.0.7",

@@ -33,13 +33,13 @@
   },
   "dependencies": {
     "ansi-escapes": "7.0.0",
-    "ansis": "3.16.0",
+    "ansis": "3.17.0",
     "cfonts": "3.3.0",
     "supports-hyperlinks": "3.2.0"
   },
   "devDependencies": {
-    "@hyperse/eslint-config-hyperse": "^1.2.10",
-    "@types/node": "22.13.8",
+    "@hyperse/eslint-config-hyperse": "^1.2.11",
+    "@types/node": "22.13.9",
     "@vitest/coverage-istanbul": "3.0.7",
     "@vitest/ui": "3.0.7",
     "eslint": "^9.21.0",
