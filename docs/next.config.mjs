@@ -1,14 +1,10 @@
 import nextra from 'nextra';
-
 const withNextra = nextra({
-  theme: 'nextra-theme-docs',
-  themeConfig: './theme.config.tsx',
-  staticImage: true,
-  defaultShowCopyCode: true,
-  codeHighlight: true,
+  latex: true,
   search: {
     codeblocks: false,
   },
+  contentDirBasePath: '/docs',
 });
 
 export default withNextra({

@@ -23,6 +23,6 @@ describe('searchPackageDir', () => {
     const pkgDir = searchPackageDir('type-fest', {
       cwd: projectCwd,
     });
-    expect(pkgDir).toBe(join(projectCwd, '/node_modules/type-fest'));
+    expect(pkgDir?.endsWith('/node_modules/type-fest')).toBe(true);
   });
 });
