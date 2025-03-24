@@ -1,4 +1,4 @@
-import { join, resolve } from 'node:path';
+import { resolve } from 'node:path';
 import { searchPackageDir } from '../src/index.js';
 
 describe('searchPackageDir', () => {

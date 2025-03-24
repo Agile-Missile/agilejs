@@ -5,10 +5,10 @@ export default function BlogPage() {
         textAlign: 'center',
         fontSize: 64,
         margin: '25vh 0',
-        fontWeight: 'bold'
+        fontWeight: 'bold',
       }}
     >
       Blog page
     </h1>
-  )
+  );
 }

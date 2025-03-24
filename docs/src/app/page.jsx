@@ -14,5 +14,5 @@ export default function IndexPage() {
     >
       home page
     </h1>
-  )
+  );
 }

@@ -5,10 +5,10 @@ export default function Page() {
         textAlign: 'center',
         fontSize: 64,
         margin: '25vh 0',
-        fontWeight: 'bold'
+        fontWeight: 'bold',
       }}
     >
       Showcase
     </h1>
-  )
+  );
 }
