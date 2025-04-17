@@ -1,2 +1,4 @@
 @import 'tailwindcss';
 @import 'nextra-theme-docs/style.css';
+
+@config '../../tailwind.config.cjs'
