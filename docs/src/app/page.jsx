@@ -12,7 +12,9 @@ export default function IndexPage() {
         justifyContent: 'center',
       }}
     >
-      home page
+      <div>
+        <h1 className="text-red-500 dark:text-blue-500">home page</h1>
+      </div>
     </h1>
   );
 }

@@ -30,17 +30,15 @@
     },
   ],
   "extensions": {
-    "recommendations": [
-      "dbaeumer.vscode-eslint"
-    ],
+    "recommendations": ["dbaeumer.vscode-eslint"],
   },
   "settings": {
     "editor.formatOnSave": true,
-    "eslint.useFlatConfig": true,
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "editor.codeActionsOnSave": {
-      "source.fixAll": "explicit",
+      "source.fixAll.eslint": "explicit",
       "source.organizeImports": "never",
+      "source.removeUnusedImports": "always",
     },
     "files.associations": {
       "*.css": "tailwindcss",
@@ -48,6 +46,14 @@
     // Disable vscode formatting for js,jsx,ts,tsx files
     // to allow dbaeumer.vscode-eslint to format them
     "[javascript]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    },
+    "[typescript]": {
+      "editor.formatOnSave": true,
+    },
+    "[html]": {
+      // Avoid onSave to format evolve/templates/**/*.html
       "editor.formatOnSave": false,
     },
     // https://github.com/Microsoft/vscode-eslint#mono-repository-setup
@@ -60,14 +66,11 @@
       "./packages/package",
     ],
     "typescript.tsdk": "root/node_modules/typescript/lib",
-    "[json]": {
-      "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-    },
     "[jsonc]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": false
     },
-    "[typescript]": {
-      "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "[json]": {
+      "editor.formatOnSave": false
     },
   },
 }

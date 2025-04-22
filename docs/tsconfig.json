@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "./src",
+    "baseUrl": "./",
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -10,8 +10,8 @@
     "noEmit": true,
     "incremental": true,
     "esModuleInterop": true,
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "module": "esnext",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
@@ -20,16 +20,17 @@
         "name": "next"
       }
     ],
+    "strictNullChecks": true,
     "paths": {
       "@/public/*": ["../public/*"]
-    },
-    "strictNullChecks": true
+    }
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
     "**/*.mjs",
+    "**/*.mdx",
     ".next/types/**/*.ts",
     "scripts/*.ts",
     "tailwind.config.cjs"
