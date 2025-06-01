@@ -22,7 +22,7 @@ export const terminalColor = (
   styles?: TerminalStyles,
   misc?: TerminalMisc
 ): ((x: string) => string) => {
-  let ansisFun: ansis.Ansis;
+  let ansisFun;
   if (color.length === 1) {
     ansisFun = getForegroundAnsisColor(ansis, color[0]);
   } else {

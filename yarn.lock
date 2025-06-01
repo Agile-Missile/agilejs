@@ -109,7 +109,7 @@ __metadata:
     "@vitest/coverage-istanbul": "npm:3.1.3"
     "@vitest/ui": "npm:3.1.3"
     ansi-escapes: "npm:7.0.0"
-    ansis: "npm:3.10.0"
+    ansis: "npm:3.9.0"
     cfonts: "npm:3.3.0"
     eslint: "npm:^9.26.0"
     minimist: "npm:^1.2.8"
@@ -4120,10 +4120,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ansis@npm:3.10.0":
-  version: 3.10.0
-  resolution: "ansis@npm:3.10.0"
-  checksum: 10/440721b606d80fd61efe4fcdfbfbb336889b0ba59cfb787c5b0d1d2ea01629796c894ed648fefcd381521344a6aec62654f94766feae8344d53803c17a4a9636
+"ansis@npm:3.9.0":
+  version: 3.9.0
+  resolution: "ansis@npm:3.9.0"
+  checksum: 10/ebf78bc5a0e14bf55733591972073eb19e7d0944e16b227230ca997233bbe7deb02eddbabfa686cd1327cf931c8f5d477cb796085d249fe40c1f941838f5e130
   languageName: node
   linkType: hard
 
