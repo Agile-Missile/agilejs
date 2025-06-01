@@ -20,14 +20,20 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Rust
-        uses: actions-rs/toolchain@v1
+        uses: dtolnay/rust-toolchain@stable
         with:
           toolchain: stable
-          components: rustfmt, clippy
-          profile: minimal
+          components: rustc, cargo, rustfmt, clippy
 
       - name: 📥 Add wasm32-wasip1 target
         run: rustup target add wasm32-wasip1 
+
+      - name: Verify Rust
+        run: |
+          rustc --version
+          cargo --version
+          rustup --version
+      
 
       - name:  🏗 Setup Node
         uses: actions/setup-node@v4
