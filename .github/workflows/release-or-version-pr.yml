@@ -25,6 +25,9 @@ jobs:
           toolchain: stable
           components: rustc, cargo, rustfmt, clippy
 
+      - name: Set Rust default toolchain
+        run: rustup default stable
+
       - name: 📥 Add wasm32-wasip1 target
         run: rustup target add wasm32-wasip1 
 
