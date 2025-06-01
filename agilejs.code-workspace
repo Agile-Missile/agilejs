@@ -9,6 +9,10 @@
       "path": "docs",
     },
     {
+      "name": "transform-swc-plugin",
+      "path": "crates/transform-swc-plugin",
+    },
+    {
       "name": "logger",
       "path": "packages/logger",
     },
@@ -59,6 +63,7 @@
     // https://github.com/Microsoft/vscode-eslint#mono-repository-setup
     "eslint.workingDirectories": [
       "./docs",
+      "./crates/transform-swc-plugin",
       "./packages/terminal",
       "./packages/commander",
       "./packages/logger",
@@ -68,6 +73,10 @@
     "typescript.tsdk": "root/node_modules/typescript/lib",
     "[jsonc]": {
       "editor.formatOnSave": false
+    },
+    "[rust]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "rust-lang.rust-analyzer"
     },
     "[json]": {
       "editor.formatOnSave": false

@@ -16,7 +16,8 @@
   },
   "workspaces": [
     "docs",
-    "packages/*"
+    "packages/*",
+    "crates/*"
   ],
   "scripts": {
     "g:clean": "yarn clean:global-cache && yarn workspaces foreach -At run clean",

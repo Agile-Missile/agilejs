@@ -61,3 +61,11 @@ yarn-error.log*
 # Deployment platforms
 
 .vercel
+
+
+# rust
+target/
+
+# misc
+.DS_Store
+*.pem
