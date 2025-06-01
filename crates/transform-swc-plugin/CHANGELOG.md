@@ -1,5 +1,11 @@
 # @hyperse/inspector-swc-plugin
 
+## 1.1.5
+
+### Patch Changes
+
+- 7da8ac4: update
+
 ## 1.1.4
 
 ### Patch Changes
