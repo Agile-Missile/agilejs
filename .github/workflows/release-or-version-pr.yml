@@ -24,8 +24,10 @@ jobs:
           toolchain: stable
           override: true        # ← 强制把 stable 设为 default
           components: rustfmt, clippy
-          targets: wasm32-wasip1 # ← 一步到位同时安装 Wasm 目标
 
+      - name: Add wasm32-wasip1 target
+        run: rustup target add wasm32-wasip1
+        
       - name: Verify Rust toolchain  
         run: |
           rustup show                # 确认 stable 已被标为 default
