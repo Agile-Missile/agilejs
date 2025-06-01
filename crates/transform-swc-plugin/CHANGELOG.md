@@ -1,5 +1,11 @@
 # @hyperse/inspector-swc-plugin
 
+## 1.1.6
+
+### Patch Changes
+
+- cab589a: update
+
 ## 1.1.5
 
 ### Patch Changes
