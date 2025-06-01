@@ -33,6 +33,15 @@ jobs:
           rustc --version             # Rust 编译器版本检查
           cargo --version             # Cargo 版本检查
 
+      # ─── 2. Node + Yarn 环境 ─────────────────────────────────────────────────
+      - name: Setup Node  
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18.x
+
+      - name: Monorepo install  
+        uses: ./.github/actions/yarn-nm-install
+
       - name: build rust
         working-directory: crates/transform-swc-plugin
         run: |
@@ -42,15 +51,6 @@ jobs:
         working-directory: crates/transform-swc-plugin
         run: |
           yarn build
-
-      # ─── 2. Node + Yarn 环境 ─────────────────────────────────────────────────
-      - name: Setup Node  
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18.x
-
-      - name: Monorepo install  
-        uses: ./.github/actions/yarn-nm-install
 
       # ─── 3. Changesets 发布／PR 流程 ───────────────────────────────────────────
       - name: Create Release Pull Request or Publish to npm  
