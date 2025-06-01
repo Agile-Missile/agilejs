@@ -1,5 +1,11 @@
 # @agilejs/terminal
 
+## 1.0.10
+
+### Patch Changes
+
+- 7da8ac4: update
+
 ## 1.0.9
 
 ### Patch Changes

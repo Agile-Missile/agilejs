@@ -1,5 +1,12 @@
 # @agile/commander
 
+## 1.0.11
+
+### Patch Changes
+
+- Updated dependencies [7da8ac4]
+  - @agilejs/terminal@1.0.10
+
 ## 1.0.10
 
 ### Patch Changes
