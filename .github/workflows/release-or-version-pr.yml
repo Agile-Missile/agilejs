@@ -6,34 +6,11 @@ on:
       - main
 
 jobs:
-  # Build the inspector-swc-plugin
-  build-rust:
-    if: ${{ github.repository == 'Agile-Missile/agilejs' && contains('refs/heads/main',github.ref)}}
-    name: Build transform-swc-plugin
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [18.x]
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: 📥 Monorepo install
-        uses: ./.github/actions/yarn-nm-install
-
-      - name: 📥 Add wasm32-wasip1 target
-        run: rustup target add wasm32-wasip1
-
-      - name: Build transform-swc-plugin
-        working-directory: crates/transform-swc-plugin
-        run: |
-          yarn build
-  
   release:
     # Basic security: the release job can only be executed from this repo and from the main branch (not a remote thing)
     if: ${{ github.repository == 'Agile-Missile/agilejs' && contains('refs/heads/main',github.ref)}}
     name: Release and changelog
     runs-on: ubuntu-latest
-    needs: build-rust
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
@@ -41,6 +18,16 @@ jobs:
           # To run comparison we need more than the latest commit.
           # @link https://github.com/actions/checkout#fetch-all-history-for-all-tags-and-branches
           fetch-depth: 0
+
+      - name: Setup Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          components: rustfmt, clippy
+          profile: minimal
+
+      - name: 📥 Add wasm32-wasip1 target
+        run: rustup target add wasm32-wasip1 
 
       - name:  🏗 Setup Node
         uses: actions/setup-node@v4
