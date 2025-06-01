@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "ansi-escapes": "7.0.0",
-    "ansis": "4.0.0",
+    "ansis": "3.10.0",
     "cfonts": "3.3.0",
     "supports-hyperlinks": "4.1.0"
   },

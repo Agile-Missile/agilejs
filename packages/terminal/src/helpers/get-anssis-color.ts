@@ -68,7 +68,7 @@ export const getForegroundAnsisColor = (
  * @returns The Ansis color for the background.
  */
 export const getBackgroundAnsisColor = (
-  ansis: Ansis.Ansis,
+  ansis: typeof Ansis,
   color?: TerminalColor
 ) => {
   if (!color) return ansis.bgHex(DEFAULT_COLOR.transparent);
