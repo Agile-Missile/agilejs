@@ -33,6 +33,7 @@ jobs:
     if: ${{ github.repository == 'Agile-Missile/agilejs' && contains('refs/heads/main',github.ref)}}
     name: Release and changelog
     runs-on: ubuntu-latest
+    needs: build-rust
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
