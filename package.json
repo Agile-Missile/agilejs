@@ -50,26 +50,26 @@
     }
   },
   "dependencies": {
-    "cross-env": "7.0.3"
+    "cross-env": "10.1.0"
   },
   "devDependencies": {
     "@changesets/changelog-git": "0.2.1",
-    "@changesets/cli": "2.29.4",
-    "@commitlint/cli": "19.8.1",
-    "@commitlint/config-conventional": "19.8.1",
-    "@hyperse/eslint-config-hyperse": "^1.4.4",
+    "@changesets/cli": "2.29.7",
+    "@commitlint/cli": "20.1.0",
+    "@commitlint/config-conventional": "20.0.0",
+    "@hyperse/eslint-config-hyperse": "^1.4.8",
     "@hyperse/ts-node-paths": "^1.0.12",
     "commitizen": "4.3.1",
     "cz-conventional-changelog": "3.3.0",
-    "eslint": "^9.26.0",
+    "eslint": "^9.38.0",
     "husky": "9.1.7",
     "is-ci": "4.1.0",
-    "lint-staged": "16.0.0",
+    "lint-staged": "16.2.6",
     "minimist": "1.2.8",
     "npm-run-all": "4.1.5",
     "rimraf": "6.0.1",
-    "terser": "5.39.2",
-    "typescript": "5.8.3"
+    "terser": "5.44.0",
+    "typescript": "5.9.3"
   },
   "engines": {
     "node": ">=18.0.0",
